@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Placeholder title</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,600,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Сюда будет всталена ссылка на файл стилей -->
+    <!-- inject:css -->
+    <!-- endinject -->
+  </head>
+
+  <body>
+    <!-- Сюда будет всталена ссылка на файл скриптов -->
+    <!-- inject:js -->
+    <!-- endinject -->
+
+    <header class="header">
+      <div class="header-topline">
+        <div class="container">
+          <address>
+            <ul class="header-topline__address">
+              <li>
+                <a href="" class="header-topline__item">
+                  <svg class="header-topline__icon">
+                    <use href="./images/icon-sprite.svg#call"></use>
+                  </svg>
+                  <p>123-123456789</p>
+                </a>
+              </li>
+              <li>
+                <a href="" class="header-topline__item">
+                  <svg class="header-topline__icon">
+                    <use href="./images/icon-sprite.svg#mail"></use>
+                  </svg>
+                  <p>info@ltntcom</p>
+                </a>
+              </li>
+            </ul>
+          </address>
+
+          <nav>
+            <ul class="header-topline__menu">
+              <li><a class="header-topline__item" href="">My Account</a></li>
+              <li><a class="header-topline__item" href="">Wishlist</a></li>
+              <li><a class="header-topline__item" href="">Cart</a></li>
+              <li><a class="header-topline__item" href="">Checkout</a></li>
+              <li>
+                <a class="header-topline__item" href="">Login/Register</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header-bottomline">
+        <div class="container">
+          <h1><a class="header-bottomline__logo" href="">mart</a></h1>
+          <nav>
+            <ul class="header-bottomline__menu">
+              <li><a class="header-bottomline__menu-item" href="">Home</a></li>
+              <li>
+                <a class="header-bottomline__menu-item" href="">About Us</a>
+              </li>
+              <li><a class="header-bottomline__menu-item" href="">page</a></li>
+              <li><a class="header-bottomline__menu-item" href="">shop</a></li>
+              <li><a class="header-bottomline__menu-item" href="">Blog</a></li>
+              <li>
+                <a class="header-bottomline__menu-item" href="">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="banner">
+      <div class="banner__content">
+        <div class="banner__text">
+          <h2 class="banner__name">
+            DRESSES <span class="green-letter">&</span> JEANS FROM OURFAMOUS
+            BRANDS <span class="green-letter">SALE</span>
+          </h2>
+          <button class="button">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="section">
+        <ul class="bonus__content">
+          <li class="bonus__article">
+            <svg class="bonus__article-icon">
+              <use href="./images/icon-sprite.svg#settings"></use>
+            </svg>
+            <h4 class="bonus__title">SETTING</h4>
+            <p class="bonus__description">
+              Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus
+              efficiantur in. Nec id tempor imperdiet deterruisset, doctus
+              volumus explicari qui ex, appareat similique an usu.
+            </p>
+          </li>
+
+          <li class="bonus__article">
+            <svg class="bonus__article-icon">
+              <use href="./images/icon-sprite.svg#safe"></use>
+            </svg>
+            <h4 class="bonus__title">MONEY BACK</h4>
+            <p class="bonus__description">
+              Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus
+              efficiantur in. Nec id tempor imperdiet deterruisset, doctus
+              volumus explicari qui ex, appareat similique an usu.
+            </p>
+          </li>
+
+          <li class="bonus__article">
+            <svg class="bonus__article-icon">
+              <use href="./images/icon-sprite.svg#global"></use>
+            </svg>
+            <h4 class="bonus__title">WORLDWIDE SHIPPING</h4>
+            <p class="bonus__description">
+              Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus
+              efficiantur in. Nec id tempor imperdiet deterruisset, doctus
+              volumus explicari qui ex, appareat similique an usu.
+            </p>
+          </li>
+
+          <li class="bonus__article">
+            <svg class="bonus__article-icon">
+              <use href="./images/icon-sprite.svg#compass"></use>
+            </svg>
+            <h4 class="bonus__title">WORLDWIDE SHIPPING</h4>
+            <p class="bonus__description">
+              Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus
+              efficiantur in. Nec id tempor imperdiet deterruisset, doctus
+              volumus explicari qui ex, appareat similique an usu.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- collection -->
+
+      <section class="section collection">
+        <div class="collection__content">
+          <h3 class="section__title">NEW COLLECTION</h3>
+
+          <div class="shop__assortment">
+            <article class="shop__card">
+              <div class="shop__overlay">
+                <img
+                  srcset="images/prod1.jpg 1x, images/prod1@2x.jpg 2x"
+                  src="images/prod1.jpg"
+                  width="255"
+                  alt=""
+                />
+              </div>
+              <div class="shop__card-bottom">
+                <h5><a class="shop__title" href="">Blue Tshirt</a></h5>
+                <span class="shop__price">$26</span>
+              </div>
+
+              <div class="shop__frame">
+                <div class="shop__buttons">
+                  <div class="shop__buttons-top">
+                    <button class="shop__button-icon">
+                      <svg class="like">
+                        <use href="./images/icon-sprite.svg#like"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="shuffle">
+                        <use href="./images/icon-sprite.svg#shuffle"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="clock">
+                        <use href="./images/icon-sprite.svg#clock"></use>
+                      </svg>
+                    </button>
+                  </div>
+
+                  <button class="shop__button-bottom">
+                    <svg class="cart">
+                      <use href="./images/icon-sprite.svg#cart"></use>
+                    </svg>
+                    <span class="icon-text">add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="shop__card">
+              <div class="shop__overlay">
+                <img
+                  srcset="images/prod2.jpg 1x, images/prod2@2x.jpg 2x"
+                  src="images/prod2.jpg"
+                  width="255"
+                  alt=""
+                />
+              </div>
+              <div class="shop__card-bottom">
+                <h5><a class="shop__title" href="">WOMAN shirt</a></h5>
+                <span class="shop__price">$31</span>
+              </div>
+
+              <div class="shop__frame">
+                <div class="shop__buttons">
+                  <div class="shop__buttons-top">
+                    <button class="shop__button-icon">
+                      <svg class="like">
+                        <use href="./images/icon-sprite.svg#like"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="shuffle">
+                        <use href="./images/icon-sprite.svg#shuffle"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="clock">
+                        <use href="./images/icon-sprite.svg#clock"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="shop__button-bottom">
+                    <svg class="cart">
+                      <use href="./images/icon-sprite.svg#cart"></use>
+                    </svg>
+                    <span class="icon-text">add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="shop__card">
+              <div class="shop__overlay">
+                <img
+                  srcset="images/prod3.jpg 1x, images/prod3@2x.jpg 2x"
+                  src="images/prod3.jpg"
+                  width="255"
+                  alt=""
+                />
+              </div>
+              <div class="shop__card-bottom">
+                <h5><a class="shop__title" href="">YELLOW Tshirt</a></h5>
+                <span class="shop__price">$21</span>
+              </div>
+              <div class="shop__frame">
+                <div class="shop__buttons">
+                  <div class="shop__buttons-top">
+                    <button class="shop__button-icon">
+                      <svg class="like">
+                        <use href="./images/icon-sprite.svg#like"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="shuffle">
+                        <use href="./images/icon-sprite.svg#shuffle"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="clock">
+                        <use href="./images/icon-sprite.svg#clock"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="shop__button-bottom">
+                    <svg class="cart">
+                      <use href="./images/icon-sprite.svg#cart"></use>
+                    </svg>
+                    <span class="icon-text">add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="shop__card">
+              <div class="shop__overlay">
+                <img
+                  srcset="images/prod4.jpg 1x, images/prod4@2x.jpg 2x"
+                  src="images/prod4.jpg"
+                  width="255"
+                  alt=""
+                />
+              </div>
+              <div class="shop__card-bottom">
+                <h5><a class="shop__title" href="">Cool lingerie</a></h5>
+                <span class="shop__price">$56</span>
+              </div>
+              <div class="shop__frame">
+                <div class="shop__buttons">
+                  <div class="shop__buttons-top">
+                    <button class="shop__button-icon">
+                      <svg class="like">
+                        <use href="./images/icon-sprite.svg#like"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="shuffle">
+                        <use href="./images/icon-sprite.svg#shuffle"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="clock">
+                        <use href="./images/icon-sprite.svg#clock"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="shop__button-bottom">
+                    <svg class="cart">
+                      <use href="./images/icon-sprite.svg#cart"></use>
+                    </svg>
+                    <span class="icon-text">add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- featured-products -->
+      <section class="section featured-products">
+        <div class="featured-products__content">
+          <h3 class="section__title">FEATURED PRODUCTS</h3>
+
+          <div class="shop__assortment">
+            <article class="shop__card">
+              <div class="featured-shop__overlay">
+                <img
+                  class="shop__img"
+                  srcset="
+                    images/homework-04_03.png    1x,
+                    images/homework-04_03@2x.png 2x
+                  "
+                  src="images/homework-04_03.png"
+                  alt=""
+                />
+              </div>
+              <div class="shop__card-bottom">
+                <h5><a class="shop__title" href="">Blue Tshirt</a></h5>
+                <span class="shop__price">$26</span>
+              </div>
+              <div class="shop__frame">
+                <div class="shop__buttons">
+                  <div class="shop__buttons-top">
+                    <button class="shop__button-icon">
+                      <svg class="like">
+                        <use href="./images/icon-sprite.svg#like"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="shuffle">
+                        <use href="./images/icon-sprite.svg#shuffle"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="clock">
+                        <use href="./images/icon-sprite.svg#clock"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="shop__button-bottom">
+                    <svg class="cart">
+                      <use href="./images/icon-sprite.svg#cart"></use>
+                    </svg>
+                    <span class="icon-text">add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="shop__card">
+              <div class="featured-shop__overlay">
+                <img
+                  class="shop__img"
+                  srcset="
+                    images/homework-04_05.png    1x,
+                    images/homework-04_05@2x.png 2x
+                  "
+                  src="images/homework-04_05.png"
+                  width="255"
+                  alt=""
+                />
+              </div>
+              <div class="shop__card-bottom">
+                <h5><a class="shop__title" href="">WOMAN shirt</a></h5>
+                <span class="shop__price">$31</span>
+              </div>
+              <div class="featured-shop__frame">
+                <div class="shop__buttons">
+                  <div class="shop__buttons-top">
+                    <button class="shop__button-icon">
+                      <svg class="like">
+                        <use href="./images/icon-sprite.svg#like"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="shuffle">
+                        <use href="./images/icon-sprite.svg#shuffle"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="clock">
+                        <use href="./images/icon-sprite.svg#clock"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="shop__button-bottom">
+                    <svg class="cart">
+                      <use href="./images/icon-sprite.svg#cart"></use>
+                    </svg>
+                    <span class="icon-text">add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="shop__card">
+              <div class="featured-shop__overlay">
+                <img
+                  class="shop__img"
+                  srcset="
+                    images/homework-04_09.png    1x,
+                    images/homework-04_09@2x.png 2x
+                  "
+                  src="images/homework-04_09.png"
+                  width="255"
+                  alt=""
+                />
+              </div>
+              <div class="shop__card-bottom">
+                <h5><a class="shop__title" href="">YELLOW Tshirt</a></h5>
+                <span class="shop__price">$21</span>
+              </div>
+              <div class="featured-shop__frame">
+                <div class="shop__buttons">
+                  <div class="shop__buttons-top">
+                    <button class="shop__button-icon">
+                      <svg class="like">
+                        <use href="./images/icon-sprite.svg#like"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="shuffle">
+                        <use href="./images/icon-sprite.svg#shuffle"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="clock">
+                        <use href="./images/icon-sprite.svg#clock"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="shop__button-bottom">
+                    <svg class="cart">
+                      <use href="./images/icon-sprite.svg#cart"></use>
+                    </svg>
+                    <span class="icon-text">add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="shop__card">
+              <div class="featured-shop__overlay">
+                <img
+                  class="shop__img"
+                  srcset="
+                    images/homework-04_11.png    1x,
+                    images/homework-04_11@2x.png 2x
+                  "
+                  src="images/homework-04_11.png"
+                  width="255"
+                  alt=""
+                />
+              </div>
+              <div class="shop__card-bottom">
+                <h5><a class="shop__title" href="">Cool lingerie</a></h5>
+                <span class="shop__price">$56</span>
+              </div>
+              <div class="featured-shop__frame">
+                <div class="shop__buttons">
+                  <div class="shop__buttons-top">
+                    <button class="shop__button-icon">
+                      <svg class="like">
+                        <use href="./images/icon-sprite.svg#like"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="shuffle">
+                        <use href="./images/icon-sprite.svg#shuffle"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="clock">
+                        <use href="./images/icon-sprite.svg#clock"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="shop__button-bottom">
+                    <svg class="cart">
+                      <use href="./images/icon-sprite.svg#cart"></use>
+                    </svg>
+                    <span class="icon-text">add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+
+            <article class="shop__card">
+              <div class="featured-shop__overlay">
+                <img
+                  class="shop__img"
+                  srcset="
+                    images/homework-04_19.png    1x,
+                    images/homework-04_19@2x.png 2x
+                  "
+                  src="images/homework-04_19.png"
+                  width="255"
+                  alt=""
+                />
+              </div>
+              <div class="shop__card-bottom">
+                <h5><a class="shop__title" href="">Blue Tshirt</a></h5>
+                <span class="shop__price">$26</span>
+              </div>
+              <div class="featured-shop__frame">
+                <div class="shop__buttons">
+                  <div class="shop__buttons-top">
+                    <button class="shop__button-icon">
+                      <svg class="like">
+                        <use href="./images/icon-sprite.svg#like"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="shuffle">
+                        <use href="./images/icon-sprite.svg#shuffle"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="clock">
+                        <use href="./images/icon-sprite.svg#clock"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="shop__button-bottom">
+                    <svg class="cart">
+                      <use href="./images/icon-sprite.svg#cart"></use>
+                    </svg>
+                    <span class="icon-text">add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="shop__card">
+              <div class="featured-shop__overlay">
+                <img
+                  class="shop__img"
+                  srcset="
+                    images/homework-04_20.png    1x,
+                    images/homework-04_20@2x.png 2x
+                  "
+                  src="images/homework-04_20.png"
+                  width="255"
+                  alt=""
+                />
+              </div>
+              <div class="shop__card-bottom">
+                <h5><a class="shop__title" href="">WOMAN shirt</a></h5>
+                <span class="shop__price">$31</span>
+              </div>
+              <div class="featured-shop__frame">
+                <div class="shop__buttons">
+                  <div class="shop__buttons-top">
+                    <button class="shop__button-icon">
+                      <svg class="like">
+                        <use href="./images/icon-sprite.svg#like"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="shuffle">
+                        <use href="./images/icon-sprite.svg#shuffle"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="clock">
+                        <use href="./images/icon-sprite.svg#clock"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="shop__button-bottom">
+                    <svg class="cart">
+                      <use href="./images/icon-sprite.svg#cart"></use>
+                    </svg>
+                    <span class="icon-text">add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="shop__card">
+              <div class="featured-shop__overlay">
+                <img
+                  class="shop__img"
+                  srcset="
+                    images/homework-04_21.png    1x,
+                    images/homework-04_21@2x.png 2x
+                  "
+                  src="images/homework-04_21.png"
+                  width="255"
+                  alt=""
+                />
+              </div>
+              <div class="shop__card-bottom">
+                <h5><a class="shop__title" href="">YELLOW Tshirt</a></h5>
+                <span class="shop__price">$21</span>
+              </div>
+              <div class="featured-shop__frame">
+                <div class="shop__buttons">
+                  <div class="shop__buttons-top">
+                    <button class="shop__button-icon">
+                      <svg class="like">
+                        <use href="./images/icon-sprite.svg#like"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="shuffle">
+                        <use href="./images/icon-sprite.svg#shuffle"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="clock">
+                        <use href="./images/icon-sprite.svg#clock"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="shop__button-bottom">
+                    <svg class="cart">
+                      <use href="./images/icon-sprite.svg#cart"></use>
+                    </svg>
+                    <span class="icon-text">add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+            <article class="shop__card">
+              <div class="featured-shop__overlay">
+                <img
+                  class="shop__img"
+                  srcset="
+                    images/homework-04_22.png    1x,
+                    images/homework-04_22@2x.png 2x
+                  "
+                  src="images/homework-04_22.png"
+                  width="255"
+                  alt=""
+                />
+              </div>
+              <div class="shop__card-bottom">
+                <h5><a class="shop__title" href="">Cool lingerie</a></h5>
+                <span class="shop__price">$56</span>
+              </div>
+              <div class="featured-shop__frame">
+                <div class="shop__buttons">
+                  <div class="shop__buttons-top">
+                    <button class="shop__button-icon">
+                      <svg class="like">
+                        <use href="./images/icon-sprite.svg#like"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="shuffle">
+                        <use href="./images/icon-sprite.svg#shuffle"></use>
+                      </svg>
+                    </button>
+                    <button class="shop__button-icon">
+                      <svg class="clock">
+                        <use href="./images/icon-sprite.svg#clock"></use>
+                      </svg>
+                    </button>
+                  </div>
+                  <button class="shop__button-bottom">
+                    <svg class="cart">
+                      <use href="./images/icon-sprite.svg#cart"></use>
+                    </svg>
+                    <span class="icon-text">add to cart</span>
+                  </button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- news -->
+      <section class="section news">
+        <h3 class="section__title">LATEST NEWS</h3>
+
+        <div class="news__content">
+          <article class="news__card">
+            <img
+              class="news-article__image"
+              srcset="
+                images/homework-04_27.jpg    1x,
+                images/homework-04_27@2x.jpg 2x
+              "
+              src="images/homework-04_27.png"
+              width="349"
+              height="260"
+              alt="shoes"
+            />
+            <h4 class="news-article__title">
+              Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+            </h4>
+            <p class="news-article__description">
+              Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+              vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+              Nam nec tellus a odio
+            </p>
+            <a class="news-article__link" href="">Read More</a>
+          </article>
+          <article class="news__card">
+            <img
+              class="news-article__image"
+              srcset="
+                images/homework-04_30.jpg    1x,
+                images/homework-04_30@2x.jpg 2x
+              "
+              src="images/homework-04_30.png"
+              width="349"
+              height="260"
+              alt="shoes"
+            />
+            <h4 class="news-article__title">
+              Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+            </h4>
+            <p class="news-article__description">
+              Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+              vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+              Nam nec tellus a odio
+            </p>
+            <a class="news-article__link" href="">Read More</a>
+          </article>
+          <article class="news__card">
+            <img
+              class="news-article__image"
+              srcset="
+                images/homework-04_32.jpg    1x,
+                images/homework-04_32@2x.jpg 2x
+              "
+              src="images/homework-04_32.png"
+              width="349"
+              height="260"
+              alt="shoes"
+            />
+            <h4 class="news-article__title">
+              Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+            </h4>
+            <p class="news-article__description">
+              Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+              vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+              Nam nec tellus a odio
+            </p>
+            <a class="news-article__link" href="">Read More</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- newsletter -->
+      <section class="section section-newsletter">
+        <h3 class="newsletter__top-title">NEWSLETTER</h3>
+        <p class="newsletter__instruction">
+          Follow a collection of news & promotions
+        </p>
+        <form action="#" method="get" class="newsletter__form">
+          <!-- <label for="id_input">Name </label> -->
+          <input
+            type="text"
+            name="e-mail"
+            placeholder="Enter your email here *"
+            class="input"
+          />
+          <button class="button-icon">
+            <svg class="next">
+              <use href="./images/icon-sprite.svg#next"></use>
+            </svg>
+          </button>
+          <!-- <button class="pe-7s-next"></button> -->
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
