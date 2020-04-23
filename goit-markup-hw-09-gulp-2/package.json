@@ -1,5 +1,5 @@
 {
-  "name": "goit-markup-hw-09-gulp",
+  "name": "goit-markup-hw-09-gulp-2",
   "version": "1.2.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://keysweetlo.github.io/goit-markup-hw-09-gulp/gulp-sborka/",
+  "homepage": "https://keysweetlo.github.io/gulp-april/goit-markup-hw-09-gulp-2/build/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keysweetlo/goit-markup-hw-09-gulp.git"
+    "url": "git+https://github.com/keysweetlo/gulp-april/goit-markup-hw-09-gulp-2/build/.git"
   },
   "author": "keysweetlo <key.sweetlo@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/keysweetlo/goit-markup-hw-09-gulp/issues"
+    "url": "https://github.com/keysweetlo/gulp-april/goit-markup-hw-09-gulp-2/build/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
